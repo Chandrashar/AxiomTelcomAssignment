@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b9364a-5ff1-4296-9d7c-2e9f0d6b222e" name="Default Changelist" comment="Commiting Services">
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/DeviceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/DeviceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mobiledb/mobile_database.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/AxiomTelcomAssignmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/AxiomTelcomAssignmentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/controller/DeviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Hardware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Hardware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Release.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Release.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/MobileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/MobileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/MobileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/MobileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="56b9364a-5ff1-4296-9d7c-2e9f0d6b222e" name="Default Changelist" comment="Commiting Services" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
