@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b9364a-5ff1-4296-9d7c-2e9f0d6b222e" name="Default Changelist" comment="" />
+    <list default="true" id="56b9364a-5ff1-4296-9d7c-2e9f0d6b222e" name="Default Changelist" comment="Commiting Services">
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mobiledb/mobile_database.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/AxiomTelcomAssignmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/AxiomTelcomAssignmentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Hardware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Hardware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Release.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Release.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/MobileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/MobileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/MobileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/MobileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chandra Sharma" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -34,13 +58,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/chan/axiom/model" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chan.axiom.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/chan/axiom/model" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AxiomTelcomAssignmentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chan.axiom.AxiomTelcomAssignmentApplication" />
+      <module name="AxiomTelcomAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chan.axiom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AxiomTelcomAssignmentApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,5 +104,69 @@
       <updated>1601234805313</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commiting Services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting Services" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1601397596359">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1601314278174" />
+    <state x="653" y="231" key="#com.intellij.ide.util.MemberChooser/0.23.1680.965@0.23.1680.965" timestamp="1601397596359" />
+    <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.972@0.23.1680.972" timestamp="1601273452391" />
+    <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.974@0.23.1680.974" timestamp="1601306857249" />
+    <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601314590785">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601314590785" />
+    <state x="413" y="110" key="CommitChangelistDialog2" timestamp="1601403424779">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="413" y="110" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1601403424779" />
+    <state width="1638" height="304" key="GridCell.Tab.0.bottom" timestamp="1601403424797">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601319027559" />
+    <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1601403424797" />
+    <state width="1638" height="408" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1601273565432" />
+    <state width="1638" height="243" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1601308087367" />
+    <state width="1638" height="243" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1601307634353" />
+    <state width="1638" height="304" key="GridCell.Tab.0.center" timestamp="1601403424796">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601319027558" />
+    <state width="1638" height="304" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1601403424796" />
+    <state width="1638" height="408" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1601273565431" />
+    <state width="1638" height="243" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1601308087366" />
+    <state width="1638" height="243" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1601307634351" />
+    <state width="1638" height="304" key="GridCell.Tab.0.left" timestamp="1601403424795">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601319027557" />
+    <state width="1638" height="304" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1601403424795" />
+    <state width="1638" height="408" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1601273565431" />
+    <state width="1638" height="243" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1601308087365" />
+    <state width="1638" height="243" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1601307634350" />
+    <state width="1638" height="304" key="GridCell.Tab.0.right" timestamp="1601403424796">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601319027559" />
+    <state width="1638" height="304" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1601403424796" />
+    <state width="1638" height="408" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1601273565431" />
+    <state width="1638" height="243" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1601308087366" />
+    <state width="1638" height="243" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1601307634351" />
   </component>
 </project>

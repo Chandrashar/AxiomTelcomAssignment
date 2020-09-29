@@ -3,15 +3,17 @@ package com.chan.axiom.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import javax.persistence.*;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Objects;
 
 @Data
 @AllArgsConstructor
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name="Mobile")
+@Table(name = "Mobile")
 public class Mobile implements Serializable {
     @Id
     private Integer id;
@@ -19,12 +21,12 @@ public class Mobile implements Serializable {
     private String phone;
     private String picture;
     @Embedded
-    // @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    //   @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Release release;
     private String sim;
     private String resolution;
     @Embedded
-    // @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    //   @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Hardware hardware;
 
     public Mobile() {
@@ -93,7 +95,6 @@ public class Mobile implements Serializable {
     public void setHardware(Hardware hardware) {
         this.hardware = hardware;
     }
-
 
 
     @Override
