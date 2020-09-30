@@ -22,13 +22,13 @@ Db Properties: File: /AxiomTelcomAssignment/src/main/resources/application.prope
 Driver Class: org.h2.Driver
 JDBC URL: jdbc:h2:file:~/axiomtelcom
 
-Exposed endpoints:
+Exposed endpoints like:
 
-http://localhost:8080/mobile/search?priceEur=200
-http://localhost:8080/mobile/search?phone=CDMA
-http://localhost:8080/mobile/search?sim=SIM
-http://localhost:8080/mobile/search?sim=eSim
-http://localhost:8080/mobile/search?announceDate=1999&priceEur=200
+GET http://localhost:8080/mobile/search?priceEur=200<br>
+GET http://localhost:8080/mobile/search?phone=CDMA
+GET http://localhost:8080/mobile/search?sim=SIM
+GET http://localhost:8080/mobile/search?sim=eSim
+GET http://localhost:8080/mobile/search?announceDate=1999&priceEur=200
 
 
 
