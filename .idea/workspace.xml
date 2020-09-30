@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56b9364a-5ff1-4296-9d7c-2e9f0d6b222e" name="Default Changelist" comment="Commiting Services">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AxiomTelcomAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AxiomTelcomAssignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/AxiomTelcomAssignmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/AxiomTelcomAssignmentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/controller/DeviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Hardware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Hardware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Release.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/model/Release.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/DeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/DeviceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/MobileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/repository/MobileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/DeviceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/MobileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chan/axiom/service/MobileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chan/axiom/DeviceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chan/axiom/DeviceServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AxiomTelcomAssignment.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/AxiomTelcomAssignmentApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/AxiomTelcomAssignmentApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/AxiomTelcomAssignmentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/AxiomTelcomAssignmentApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/controller/DeviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Hardware.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Hardware.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Mobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Release.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/model/Release.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/repository/DeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/repository/DeviceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/repository/MobileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/repository/MobileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/service/DeviceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/service/DeviceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chan/axiom/service/MobileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chan/axiom/service/MobileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.chan.axiom.AxiomTelcomAssignmentApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.chan.axiom.AxiomTelcomAssignmentApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chan/axiom/AxiomTelcomAssignmentApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
