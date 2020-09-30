@@ -6,6 +6,11 @@ import com.chan.axiom.model.Mobile;
 import com.chan.axiom.model.Release;
 import com.chan.axiom.repository.DeviceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -16,11 +21,15 @@ import java.util.List;
  * Project: AxiomTelcomAssignment
  * Package: com.chan.axiom.service
  */
+
 @Service
 public class DeviceService {
 
     @Autowired
     DeviceRepository deviceRepository;
+
+    public DeviceService(DeviceRepository deviceRepository) {
+    }
 
     public List<Device> getAllMobile() {
         List<Device> mobiles = new ArrayList<>();
@@ -50,8 +59,6 @@ public class DeviceService {
             deviceBean.setBattery(hs.getHardware().getBattery());
             deviceBeans.add(deviceBean);
 
-            //System.out.println(hs.getId() + " " + hs.getPhone() + " " + hw.getBattery() + " " + rs.getPriceEur() + " " + rs.getAnnounceDate() + " " + hs.getSim());
-
         }
 
         return deviceBeans;
@@ -62,7 +69,7 @@ public class DeviceService {
         deviceRepository.saveAll(deviceBeans);
     }
 
-    public List<Device> findBySim(String sim) {
+   /* public List<Device> findBySim(String sim) {
         System.out.println("getDeviceBySim " + sim);
         return deviceRepository.findBySim(sim);
     }
@@ -84,13 +91,18 @@ public class DeviceService {
 
     public List<Device> findByAnnounceDate(String announceDate) {
         return deviceRepository.findByAnnounceDate(announceDate);
-    }
+    } */
 
     public List<Device> findByAnnounceDateAndPriceEur(String announceDate, Integer priceEur) {
         return deviceRepository.findByAnnounceDateAndPriceEur(announceDate, priceEur);
     }
 
-    /*public List<Device> findById(Long aLong) {
-        return deviceRepository.findById(aLong);
-    }*/
+
+    public Iterable<Device> findAll(Specification<Device> spec) {
+        return deviceRepository.findAll(spec);
+    }
+
+    public Iterable findByAnnounceDateAndPriceEur(Specification<Device> spec, Pageable pageable) {
+        return deviceRepository.findAll(spec, pageable);
+    }
 }

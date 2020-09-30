@@ -1,13 +1,25 @@
 package com.chan.axiom;
 
-import org.junit.jupiter.api.Test;
+import com.chan.axiom.model.Device;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.http.*;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.web.client.HttpClientErrorException;
+
 
 @SpringBootTest
-class AxiomTelcomAssignmentApplicationTests {
+public class AxiomTelcomAssignmentApplicationTests {
+
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
+
 
 }

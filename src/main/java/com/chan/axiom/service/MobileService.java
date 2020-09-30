@@ -1,8 +1,10 @@
 package com.chan.axiom.service;
 
+import com.chan.axiom.model.Device;
 import com.chan.axiom.model.Mobile;
 import com.chan.axiom.repository.MobileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -19,9 +21,6 @@ public class MobileService {
 
     @Autowired
     private MobileRepository mobileRepository;
-    // @Autowired
-    // private DeviceRepository deviceRepository;
-    //private DeviceService deviceService;
 
     public MobileService(MobileRepository mobileRepository) {
         this.mobileRepository = mobileRepository;
@@ -35,23 +34,34 @@ public class MobileService {
         mobileRepository.saveAll(handSet);
     }
 
-    /*public  Iterable<Mobile> list() {
-        return mobileRepository.findAll();
-    }
-
-
-    public Mobile save(Mobile handSet) {
-        return mobileRepository.save(handSet);
-    }
-
-*/
-
-
     public List<Mobile> getAllMobile() {
         List<Mobile> mobiles = new ArrayList<>();
         mobileRepository.findAll().forEach(mobiles::add);
         return mobiles;
     }
 
+/*
+    public Iterable<Mobile> findBySim(Specification<Mobile> spec) {
+        return mobileRepository.findAll(spec);
+    }
 
+    public Iterable<Mobile> findByBrand(Specification<Mobile> spec) {
+        return mobileRepository.findAll(spec);
+    }
+
+    public Iterable<Mobile> findByBattery(Specification<Mobile> spec) {
+        return mobileRepository.findAll(spec);
+    }
+
+    public Iterable<Mobile> findByPriceEur(Specification<Mobile> spec) {
+        return mobileRepository.findAll(spec);
+    }
+
+    public Iterable<Mobile> findByAnnounceDate(Specification<Mobile> spec) {
+        return mobileRepository.findAll(spec);
+    }
+
+    public List<Mobile> findbyMobileParam(Specification<Mobile> spec) {
+        return mobileRepository.findAll(spec);
+    }*/
 }

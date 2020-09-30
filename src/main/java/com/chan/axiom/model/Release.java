@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * User: Chandra P Sharma
- * Project: AxiomHiring
+ * Project: AxiomTelcomAssignment
  * Package: com.chan.axiom.model
  */
 

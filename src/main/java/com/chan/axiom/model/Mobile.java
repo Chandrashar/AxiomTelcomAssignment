@@ -10,6 +10,12 @@ import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ * User: Chandra P Sharma
+ * Project: AxiomTelcomAssignment
+ * Package: com.chan.axiom.model
+ */
+
 @Data
 @AllArgsConstructor
 @Entity

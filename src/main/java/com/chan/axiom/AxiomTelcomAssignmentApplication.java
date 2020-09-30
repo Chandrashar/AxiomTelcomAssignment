@@ -1,6 +1,5 @@
 package com.chan.axiom;
 
-//import com.chan.axiom.model.Device;
 
 import com.chan.axiom.model.Mobile;
 import com.chan.axiom.repository.MobileRepository;
@@ -24,8 +23,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-//import com.chan.axiom.repository.DeviceRepository;
-//import com.chan.axiom.service.DeviceService;
+/**
+ * User: Chandra P Sharma
+ * Project: AxiomTelcomAssignment
+ * Package: com.chan.axiom.model
+ */
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.chan.axiom")
@@ -64,7 +66,7 @@ public class AxiomTelcomAssignmentApplication implements WebMvcConfigurer {
                 mobileService.save(handSets);
                 System.out.println(" Mobile Handsets Save into DB!!");
                 deviceService.save(deviceService.load(handSets));
-                mobileRepository.deleteAll();
+               // mobileRepository.deleteAll();
             } catch (IOException io) {
                 System.out.println("Unable to save Mobile Handsets into DB: - " + io.getLocalizedMessage());
             }
