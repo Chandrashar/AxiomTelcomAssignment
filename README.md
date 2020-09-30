@@ -24,11 +24,11 @@ JDBC URL: jdbc:h2:file:~/axiomtelcom
 
 Exposed endpoints like:
 
-GET http://localhost:8080/mobile/search?priceEur=200<br>
-GET http://localhost:8080/mobile/search?phone=CDMA
-GET http://localhost:8080/mobile/search?sim=SIM
-GET http://localhost:8080/mobile/search?sim=eSim
-GET http://localhost:8080/mobile/search?announceDate=1999&priceEur=200
+GET http://localhost:8080/mobile/search?priceEur=200    <br>
+GET http://localhost:8080/mobile/search?phone=CDMA    <br>
+GET http://localhost:8080/mobile/search?sim=SIM    <br>
+GET http://localhost:8080/mobile/search?sim=eSim    <br>
+GET http://localhost:8080/mobile/search?announceDate=1999&priceEur=200    <br>
 
 
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="56b9364a-5ff1-4296-9d7c-2e9f0d6b222e" name="Default Changelist" comment="Commiting Services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,10 +128,11 @@
     <state x="653" y="231" key="#com.intellij.ide.util.MemberChooser/0.23.1680.965@0.23.1680.965" timestamp="1601397596359" />
     <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.972@0.23.1680.972" timestamp="1601273452391" />
     <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.974@0.23.1680.974" timestamp="1601306857249" />
-    <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601314590785">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="578" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601459017768">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601314590785" />
+    <state x="578" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.967@0.23.1680.967" timestamp="1601459017767" />
     <state x="413" y="110" key="CommitChangelistDialog2" timestamp="1601403424779">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
